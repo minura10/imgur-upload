@@ -22,7 +22,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a className="App-link" href="/api/login">
+      <a
+          className="App-link"
+          href="/api/login"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Login to Imgur
         </a>
 
